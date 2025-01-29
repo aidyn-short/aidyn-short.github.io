@@ -1,0 +1,112 @@
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+
+
+
+.firstColor{
+    color: white;
+    background-color: #171311;
+
+}
+
+.secondColor{
+    color: white;
+    background-color:  #1E1C1B;
+   
+}
+
+
+.header{
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+
+.landingTitle
+{
+    text-align: center;
+    background-image: url(LandingBanner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 50%;
+    padding: 100px;
+    margin: 0px;
+    font-size:  100px;
+    
+}
+
+
+
+.links
+{
+text-align-last: center;
+
+background-color: rgb(32, 32, 32);
+margin: 0px;
+}
+
+.link{
+    color:aliceblue;
+    margin: 10px;
+    font-size: 25px;
+    width: 2000px;
+}
+
+
+.titleInfo{
+    font-size: 50px; 
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+}
+
+.titleImage{
+    
+    width:50%;
+    height: auto;
+}
+
+
+table, th, td{
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+
+table{
+    width: 100%;
+}
+
+th{
+    width: 33%;
+    font-size: 40px;
+    color: rgb(230, 213, 172);
+}
+
+td{
+    font-size: 30px;
+    color: rgb(230, 213, 172);
+}
+
+
+
+li{
+    font-size: 30px;
+}
+
+
+p{
+    color: #412825;
+}
+
+
