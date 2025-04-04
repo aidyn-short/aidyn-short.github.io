@@ -1,286 +1,205 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Aidyn Short | Game Programmer</title>
-    <link rel="stylesheet" href="Portfolio.CSS">
-
+  <meta charset="UTF-8">
+  <title>Aidyn Short | Game Programmer</title>
+  <link rel="stylesheet" href="Portfolio.css">
 </head>
+<body class="secondColor">
+  <!-- Header Section -->
+  <header class="firstColor">
+    <div class="branding">
+      <h1 class="text-primary">Aidyn Short</h1>
+      <h2 class="text-secondary">Game Programmer</h2>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#projects_id" class="text-primary">Projects</a></li>
+        <li><a href="#demos_id" class="text-primary">Demos</a></li>
+      </ul>
+    </nav>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/aidynshort" target="_blank" title="LinkedIn">
+        <img src="linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/Arshort5" target="_blank" title="Github">
+        <img src="github-mark.png" alt="Github">
+      </a>
+      <a href="/images/myw3schoolsimage.jpg" download target="_blank" title="Resume">
+        <img src="github-mark.png" alt="Resume">
+      </a>
+    </div>
+  </header>
 
-<body class="secondColor" style="margin: 0px;">
-
-
-    <section class="firstColor"
-        style=" display: flex; padding-top: 10px;    justify-content: flex-start; position: sticky; top:0; z-index: 10; opacity: .9; align-items: baseline; flex-wrap: nowrap;">
-
-
-
-        <p class="firstColor"
-            style="padding-right: 15px;  padding-bottom: 10px; font-size: 40px; margin-top: 5px;; margin-bottom: 0%; ">
-            Aidyn Short
-        </p>
-
-        <p class="firstColor header" style="margin-top: 0%; margin-bottom: 0%; font-size: 25px;">
-            Game Programmer
-
-        </p>
-
-        <a href="#projects_id" class="firstColor header" style="font-size: 25px;">
-            Projects
-        </a>
-
-        <a href="#demos_id" class="firstColor header" style="font-size: 25px;">
-            Demos
-
-        </a>
-
-
-
-
-        <a href="https://www.linkedin.com/in/aidynshort" target="_blank" title="LinkedIn" class="firstColor header"><img
-                src="linkedin.png" style="width: 64px;height:64px;"></a>
-        <a href="https://github.com/Arshort5" target="_blank" title="Github" class="firstColor header"><img
-                src="github-mark.png" style="width: 64px;height:64px;"></a>
-        <a href="/images/myw3schoolsimage.jpg" download target="_blank" title="Resume" class="firstColor header"> <img
-                src="github-mark.png" style="width: 64px;height:64px;"> </a>
-
-
+  <!-- Main Content -->
+  <main>
+    <!-- About Me Section -->
+    <section class="about-me secondColor">
+      <div class="about-content">
+        <img src="linkedin.png" alt="Avatar" class="avatar">
+        <div class="about-text text-secondary">
+          <p>About me content goes here. This is a brief introduction about my background, skills, and interests in game programming.</p>
+        </div>
+      </div>
     </section>
 
-
-
-    <section class="secondColor">
-
-
-
-
-
-
-
-
-        <section style="display: flex; justify-content: flex-start;">
-
-            <section>
-
-                <img src="linkedin.png" alt="Avatar"
-                    style="border-radius: 75%; border: 4px solid black; width: 300px; height: 300px;">
-            </section>
-
-            <section>
-                //about me will go in here
-            </section>
-
-
-
-
-        </section>
-
-    </section>
-
-
-    <div id="projects_id"></div>
-    <p class="firstColor" style="font-size: 60px; padding-top: 20px; padding-bottom: 20px;  text-align-last: center;">
-        Projects
-    </p>
-
-
-    <section style="display: flex; justify-content: space-between; margin: 0 10%; text-align: center;     gap: 100px;">
-
-
-    <button class="project-card" type="button" onclick="window.location.href='https:\\www.youtube.com'" >
-        <div class="card-media">
-          <video class="card-video" autoplay muted loop>
-            <source src="test.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="card-content">
-          <div class="card-stats">
-            <span class="stat">Team Size: 17</span>
-            <span class="stat">Time Spent: 8 months</span>
-            <span class="stat">Tools Used: UE5</span>
+    <!-- Projects Section -->
+    <section id="projects_id" class="projects-section">
+      <h2 class="section-title text-primary">Projects</h2>
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <button class="project-card" type="button" onclick="window.location.href='https://www.youtube.com'">
+          <div class="card-media">
+            <video class="card-video" autoplay muted loop>
+              <source src="test.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <div class="card-details">
-            <h3 class="project-name">Shutterbuds</h3>
-            <p class="project-role">Networking/Lead Programmer</p>
+          <div class="card-content">
+            <div class="card-stats">
+              <span class="stat text-secondary">Team Size: 17</span>
+              <span class="stat text-secondary">Time Spent: 8 months</span>
+              <span class="stat text-secondary">Tools Used: UE5</span>
+            </div>
+            <div class="card-details">
+              <h3 class="project-name text-primary">Shutterbuds</h3>
+              <p class="project-role text-secondary">Networking/Lead Programmer</p>
+            </div>
+            <div class="card-description">
+              <p class="text-secondary">
+                Shutterbuds is a co-op photography game allowing players to interact with each other and an interactive world. Players get jobs from magazines and must work together to explore and complete them. This project utilizes Steam's peer-to-peer networking system and Unreal Engine's replication system.
+              </p>
+            </div>
           </div>
-          <div class="card-description">
-            <p>Shutterbuds is a co-op photography game allowing players to interact with each other and an interactive world. Players get jobs from magazines and must work together to explore and complete them. This project utilizes Steam's peer-to-peer networking system and Unreal Engine's replication system.</p>
-          </div>
-        </div>
-      </button>
-
-
-
-      <button class="project-card" type="button" onclick="window.location.href='https:\\www.youtube.com'" >
-        <div class="card-media">
-          <video class="card-video" autoplay muted loop>
-            <source src="test.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="card-content">
-          <div class="card-stats">
-            <span class="stat">Team Size</span>
-            <span class="stat">Time Spent</span>
-            <span class="stat">Tools Used</span>
-          </div>
-          <div class="card-details">
-            <h3 class="project-name">Project Name</h3>
-            <p class="project-role">Project Role</p>
-          </div>
-          <div class="card-description">
-            <p>Project Description</p>
-          </div>
-        </div>
-      </button>
-
-
-
-      <button class="project-card" type="button" onclick="window.location.href='https:\\www.youtube.com'" >
-        <div class="card-media">
-          <video class="card-video" autoplay muted loop>
-            <source src="test.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="card-content">
-          <div class="card-stats">
-            <span class="stat">Team Size</span>
-            <span class="stat">Time Spent</span>
-            <span class="stat">Tools Used</span>
-          </div>
-          <div class="card-details">
-            <h3 class="project-name">Project Name</h3>
-            <p class="project-role">Project Role</p>
-          </div>
-          <div class="card-description">
-            <p>Project Description</p>
-          </div>
-        </div>
-      </button>
-
-
-
-      
-</section>
-
-
-
-    <div id="demos_id"></div>
-    <p class="firstColor" style="font-size: 60px; padding-top: 20px; padding-bottom: 20px;  text-align-last: center;">
-        Demos
-    </p>
-
-
-<section style="display: flex; margin-left: 10%; margin-right: 10%;     text-align: center;">
-    <section class="secondColor">
-
-        <button class="firstColor" style=" width: 60%; height: 50%; border: 0; min-height: 600px; margin-top: 20px; margin-bottom: 20px;">
-            <section>
-                <video width="100%" height="33%" autoplay>
-                    <source src="test.mp4" type="video/mp4">
-                </video>
-            </section>
-
-            <section style="display: flex; justify-content: center;">
-                <p class="firstColor">
-                    team size
-                </p>
-
-                <p class="firstColor">
-                    time spent
-                </p>
-
-                <p class="firstColor">
-                    tools used
-                </p>
-
-            </section>
-
-            <section>
-                <p class="firstColor">
-                    project name
-                </p>
-                <p class="firstColor">
-                    project role
-                </p>
-            </section>
-
-            <section>
-                <p class="firstColor">
-                    project description
-                </p>
-               
-            </section>
-
-
         </button>
 
-
-
-
-    </section>
-
-<section class="secondColor">
-
-        <button class="firstColor" style=" width: 60%; height: 50%; border: 0; min-height: 600px; margin-top: 20px; margin-bottom: 20px;">
-            <section>
-                <video width="100%" height="33%" autoplay>
-                    <source src="test.mp4" type="video/mp4">
-                </video>
-            </section>
-
-            <section style="display: flex; justify-content: center;">
-                <p class="firstColor">
-                    team size
-                </p>
-
-                <p class="firstColor">
-                    time spent
-                </p>
-
-                <p class="firstColor">
-                    tools used
-                </p>
-
-            </section>
-
-            <section>
-                <p class="firstColor">
-                    project name
-                </p>
-                <p class="firstColor">
-                    project role
-                </p>
-            </section>
-
-            <section>
-                <p class="firstColor">
-                    project description
-                </p>
-               
-            </section>
-
-
+        <!-- Project Card 2 -->
+        <button class="project-card" type="button" onclick="window.location.href='https://www.youtube.com'">
+          <div class="card-media">
+            <video class="card-video" autoplay muted loop>
+              <source src="test.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="card-content">
+            <div class="card-stats">
+              <span class="stat text-secondary">Team Size</span>
+              <span class="stat text-secondary">Time Spent</span>
+              <span class="stat text-secondary">Tools Used</span>
+            </div>
+            <div class="card-details">
+              <h3 class="project-name text-primary">Project Name</h3>
+              <p class="project-role text-secondary">Project Role</p>
+            </div>
+            <div class="card-description">
+              <p class="text-secondary">Project Description</p>
+            </div>
+          </div>
         </button>
 
-
-
-
+        <!-- Project Card 3 -->
+        <button class="project-card" type="button" onclick="window.location.href='https://www.youtube.com'">
+          <div class="card-media">
+            <video class="card-video" autoplay muted loop>
+              <source src="test.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="card-content">
+            <div class="card-stats">
+              <span class="stat text-secondary">Team Size</span>
+              <span class="stat text-secondary">Time Spent</span>
+              <span class="stat text-secondary">Tools Used</span>
+            </div>
+            <div class="card-details">
+              <h3 class="project-name text-primary">Project Name</h3>
+              <p class="project-role text-secondary">Project Role</p>
+            </div>
+            <div class="card-description">
+              <p class="text-secondary">Project Description</p>
+            </div>
+          </div>
+        </button>
+      </div>
     </section>
-</section>
 
+    <!-- Demos Section -->
+    <section id="demos_id" class="demos-section">
+      <h2 class="section-title text-primary">Demos</h2>
+      <div class="demos-grid">
+        <!-- Demo Card 1 -->
+        <button class="project-card" type="button" onclick="window.location.href='https://www.youtube.com'">
+          <div class="card-media">
+            <video class="card-video" autoplay muted loop>
+              <source src="test.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="card-content">
+            <div class="card-stats">
+              <span class="stat text-secondary">Team Size</span>
+              <span class="stat text-secondary">Time Spent</span>
+              <span class="stat text-secondary">Tools Used</span>
+            </div>
+            <div class="card-details">
+              <h3 class="project-name text-primary">Project Name</h3>
+              <p class="project-role text-secondary">Project Role</p>
+            </div>
+            <div class="card-description">
+              <p class="text-secondary">Project Description</p>
+            </div>
+          </div>
+        </button>
 
-  
+        <!-- Demo Card 2 -->
+        <button class="project-card" type="button" onclick="window.location.href='https://www.youtube.com'">
+          <div class="card-media">
+            <video class="card-video" autoplay muted loop>
+              <source src="test.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="card-content">
+            <div class="card-stats">
+              <span class="stat text-secondary">Team Size</span>
+              <span class="stat text-secondary">Time Spent</span>
+              <span class="stat text-secondary">Tools Used</span>
+            </div>
+            <div class="card-details">
+              <h3 class="project-name text-primary">Project Name</h3>
+              <p class="project-role text-secondary">Project Role</p>
+            </div>
+            <div class="card-description">
+              <p class="text-secondary">Project Description</p>
+            </div>
+          </div>
+        </button>
 
-
-
+        <!-- Demo Card 3 -->
+        <button class="project-card" type="button" onclick="window.location.href='https://www.youtube.com'">
+          <div class="card-media">
+            <video class="card-video" autoplay muted loop>
+              <source src="test.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="card-content">
+            <div class="card-stats">
+              <span class="stat text-secondary">Team Size</span>
+              <span class="stat text-secondary">Time Spent</span>
+              <span class="stat text-secondary">Tools Used</span>
+            </div>
+            <div class="card-details">
+              <h3 class="project-name text-primary">Project Name</h3>
+              <p class="project-role text-secondary">Project Role</p>
+            </div>
+            <div class="card-description">
+              <p class="text-secondary">Project Description</p>
+            </div>
+          </div>
+        </button>
+      </div>
+    </section>
+  </main>
 </body>
-
-
-
-
-
 </html>
